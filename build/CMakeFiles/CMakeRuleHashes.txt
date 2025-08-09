@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+15aa32776acc345b8333a06c83b18228 CMakeFiles/macroapp_autogen
+cc10bde6bddb3aa873d4bfa8ae9c3cd4 macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp
+33a62d03f9dd31d4db46183ee9bf9eb0 macroapp_autogen/timestamp
+1be1a437b830a59e3a90f774d6f48516 qtcalculator_autogen/timestamp

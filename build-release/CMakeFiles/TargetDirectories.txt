@@ -1,0 +1,3 @@
+C:/Users/santi/Documents/Source/c++/macro-app/build-release/CMakeFiles/macroapp.dir
+C:/Users/santi/Documents/Source/c++/macro-app/build-release/CMakeFiles/ALL_BUILD.dir
+C:/Users/santi/Documents/Source/c++/macro-app/build-release/CMakeFiles/ZERO_CHECK.dir

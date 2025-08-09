@@ -1,0 +1,5 @@
+C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/macroapp.dir
+C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/edit_cache.dir
+C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/rebuild_cache.dir
+C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/macroapp_autogen_timestamp_deps.dir
+C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/macroapp_autogen.dir

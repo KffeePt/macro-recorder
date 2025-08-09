@@ -1,0 +1,9 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/sounds">
+    <file>sounds/record_start.mp3</file>
+    <file>sounds/record_stop.mp3</file>
+    <file>sounds/playback_start.mp3</file>
+    <file>sounds/playback_stop.mp3</file>
+    <file>sounds/save_successful.mp3</file>
+</qresource>
+</RCC>
