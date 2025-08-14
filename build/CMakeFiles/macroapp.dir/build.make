@@ -147,26 +147,11 @@ CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\santi\Documents\GitHub\macro-recorder\src\core\macro_engine.cpp -o CMakeFiles\macroapp.dir\src\core\macro_engine.cpp.s
 
-CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj: CMakeFiles/macroapp.dir/flags.make
-CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj: CMakeFiles/macroapp.dir/includes_CXX.rsp
-CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.cpp
-CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj: CMakeFiles/macroapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj -MF CMakeFiles\macroapp.dir\src\core\global_hotkeys.cpp.obj.d -o CMakeFiles\macroapp.dir\src\core\global_hotkeys.cpp.obj -c C:\Users\santi\Documents\GitHub\macro-recorder\src\core\global_hotkeys.cpp
-
-CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\santi\Documents\GitHub\macro-recorder\src\core\global_hotkeys.cpp > CMakeFiles\macroapp.dir\src\core\global_hotkeys.cpp.i
-
-CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\santi\Documents\GitHub\macro-recorder\src\core\global_hotkeys.cpp -o CMakeFiles\macroapp.dir\src\core\global_hotkeys.cpp.s
-
 CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj: CMakeFiles/macroapp.dir/flags.make
 CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj: CMakeFiles/macroapp.dir/includes_CXX.rsp
 CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.cpp
 CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj: CMakeFiles/macroapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj -MF CMakeFiles\macroapp.dir\src\ui\settings_dialog.cpp.obj.d -o CMakeFiles\macroapp.dir\src\ui\settings_dialog.cpp.obj -c C:\Users\santi\Documents\GitHub\macro-recorder\src\ui\settings_dialog.cpp
 
 CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.i: cmake_force
@@ -181,7 +166,7 @@ CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: CMakeFiles/macroapp.
 CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: CMakeFiles/macroapp.dir/includes_CXX.rsp
 CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.cpp
 CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: CMakeFiles/macroapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj -MF CMakeFiles\macroapp.dir\src\ui\insert_event_dialog.cpp.obj.d -o CMakeFiles\macroapp.dir\src\ui\insert_event_dialog.cpp.obj -c C:\Users\santi\Documents\GitHub\macro-recorder\src\ui\insert_event_dialog.cpp
 
 CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.i: cmake_force
@@ -196,7 +181,7 @@ CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj: CMakeFiles/macroapp.dir/f
 CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj: CMakeFiles/macroapp.dir/includes_CXX.rsp
 CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.cpp
 CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj: CMakeFiles/macroapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj -MF CMakeFiles\macroapp.dir\src\ui\event_delegate.cpp.obj.d -o CMakeFiles\macroapp.dir\src\ui\event_delegate.cpp.obj -c C:\Users\santi\Documents\GitHub\macro-recorder\src\ui\event_delegate.cpp
 
 CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.i: cmake_force
@@ -211,7 +196,7 @@ CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj: CMakeFiles/macroapp.dir
 CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj: CMakeFiles/macroapp.dir/includes_CXX.rsp
 CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.cpp
 CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj: CMakeFiles/macroapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj -MF CMakeFiles\macroapp.dir\src\audio\audio_decoder.cpp.obj.d -o CMakeFiles\macroapp.dir\src\audio\audio_decoder.cpp.obj -c C:\Users\santi\Documents\GitHub\macro-recorder\src\audio\audio_decoder.cpp
 
 CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.i: cmake_force
@@ -226,7 +211,7 @@ CMakeFiles/macroapp.dir/macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp.obj: CMakeFil
 CMakeFiles/macroapp.dir/macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp.obj: CMakeFiles/macroapp.dir/includes_CXX.rsp
 CMakeFiles/macroapp.dir/macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp.obj: macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp
 CMakeFiles/macroapp.dir/macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp.obj: CMakeFiles/macroapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/macroapp.dir/macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/macroapp.dir/macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/macroapp.dir/macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp.obj -MF CMakeFiles\macroapp.dir\macroapp_autogen\EWIEGA46WW\qrc_sounds.cpp.obj.d -o CMakeFiles\macroapp.dir\macroapp_autogen\EWIEGA46WW\qrc_sounds.cpp.obj -c C:\Users\santi\Documents\GitHub\macro-recorder\build\macroapp_autogen\EWIEGA46WW\qrc_sounds.cpp
 
 CMakeFiles/macroapp.dir/macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp.i: cmake_force
@@ -243,7 +228,6 @@ macroapp_OBJECTS = \
 "CMakeFiles/macroapp.dir/main.cpp.obj" \
 "CMakeFiles/macroapp.dir/mainwindow.cpp.obj" \
 "CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj" \
-"CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj" \
 "CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj" \
 "CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj" \
 "CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj" \
@@ -257,7 +241,6 @@ macroapp.exe: CMakeFiles/macroapp.dir/macroapp_autogen/mocs_compilation.cpp.obj
 macroapp.exe: CMakeFiles/macroapp.dir/main.cpp.obj
 macroapp.exe: CMakeFiles/macroapp.dir/mainwindow.cpp.obj
 macroapp.exe: CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj
-macroapp.exe: CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj
 macroapp.exe: CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj
 macroapp.exe: CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj
 macroapp.exe: CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj
@@ -273,7 +256,7 @@ macroapp.exe: C:/Qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a
 macroapp.exe: CMakeFiles/macroapp.dir/linkLibs.rsp
 macroapp.exe: CMakeFiles/macroapp.dir/objects1.rsp
 macroapp.exe: CMakeFiles/macroapp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable macroapp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable macroapp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\macroapp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

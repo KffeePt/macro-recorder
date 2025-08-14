@@ -14,7 +14,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/santi/Documents/GitHub/macro-recorder/main.cpp" "CMakeFiles/macroapp.dir/main.cpp.obj" "gcc" "CMakeFiles/macroapp.dir/main.cpp.obj.d"
   "C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.cpp" "CMakeFiles/macroapp.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/macroapp.dir/mainwindow.cpp.obj.d"
   "C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.cpp" "CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj" "gcc" "CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj.d"
-  "C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.cpp" "CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj" "gcc" "CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj.d"
   "C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.cpp" "CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj" "gcc" "CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj.d"
   "C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.cpp" "CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj" "gcc" "CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj.d"
   "C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.cpp" "CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj" "gcc" "CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj.d"

@@ -368,12 +368,6 @@
 			null
 		],
 		[
-			"C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h",
-			"MU",
-			"PRMOGMWJPH/moc_global_hotkeys.cpp",
-			null
-		],
-		[
 			"C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h",
 			"MU",
 			"PRMOGMWJPH/moc_macro_engine.cpp",
@@ -484,11 +478,6 @@
 		],
 		[
 			"C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.cpp",
 			"MU",
 			null
 		],

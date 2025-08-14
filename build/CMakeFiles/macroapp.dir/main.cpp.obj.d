@@ -643,10 +643,6 @@ CMakeFiles/macroapp.dir/main.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mcx.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
- C:\Users\santi\Documents\GitHub\macro-recorder\src/core/global_hotkeys.h \
- C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter \
- C:/Qt/6.9.1/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/windows.h \
  C:\Users\santi\Documents\GitHub\macro-recorder\src/audio/audio_decoder.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QString \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qstring.h \
@@ -694,6 +690,8 @@ CMakeFiles/macroapp.dir/main.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtabbar.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qrubberband.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter \
+ C:/Qt/6.9.1/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qcoreapplication.h \

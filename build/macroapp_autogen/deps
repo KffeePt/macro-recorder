@@ -937,8 +937,6 @@ macroapp_autogen/timestamp: \
 	C:/Users/santi/Documents/GitHub/macro-recorder/sounds.qrc \
 	C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.cpp \
 	C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
-	C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.cpp \
-	C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h \
 	C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.cpp \
 	C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
 	C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.cpp \

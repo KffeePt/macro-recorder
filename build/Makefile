@@ -274,30 +274,6 @@ src/audio/audio_decoder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\macroapp.dir\build.make CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.s
 .PHONY : src/audio/audio_decoder.cpp.s
 
-src/core/global_hotkeys.obj: src/core/global_hotkeys.cpp.obj
-.PHONY : src/core/global_hotkeys.obj
-
-# target to build an object file
-src/core/global_hotkeys.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\macroapp.dir\build.make CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj
-.PHONY : src/core/global_hotkeys.cpp.obj
-
-src/core/global_hotkeys.i: src/core/global_hotkeys.cpp.i
-.PHONY : src/core/global_hotkeys.i
-
-# target to preprocess a source file
-src/core/global_hotkeys.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\macroapp.dir\build.make CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.i
-.PHONY : src/core/global_hotkeys.cpp.i
-
-src/core/global_hotkeys.s: src/core/global_hotkeys.cpp.s
-.PHONY : src/core/global_hotkeys.s
-
-# target to generate assembly for a file
-src/core/global_hotkeys.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\macroapp.dir\build.make CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.s
-.PHONY : src/core/global_hotkeys.cpp.s
-
 src/core/macro_engine.obj: src/core/macro_engine.cpp.obj
 .PHONY : src/core/macro_engine.obj
 
@@ -420,9 +396,6 @@ help:
 	@echo ... src/audio/audio_decoder.obj
 	@echo ... src/audio/audio_decoder.i
 	@echo ... src/audio/audio_decoder.s
-	@echo ... src/core/global_hotkeys.obj
-	@echo ... src/core/global_hotkeys.i
-	@echo ... src/core/global_hotkeys.s
 	@echo ... src/core/macro_engine.obj
 	@echo ... src/core/macro_engine.i
 	@echo ... src/core/macro_engine.s

@@ -616,4 +616,6 @@ CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qcalendar.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qvariant.h \
- C:/Qt/6.9.1/mingw_64/include/QtCore/qdebug.h
+ C:/Qt/6.9.1/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.9.1/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.9.1/mingw_64/include/QtCore/qtimer.h

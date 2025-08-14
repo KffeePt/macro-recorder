@@ -12,8 +12,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/macroapp.dir/mainwindow.cpp.obj.d"
   "CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj"
   "CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj.d"
-  "CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj"
-  "CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj.d"
   "CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj"
   "CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj.d"
   "CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj"

@@ -53,8 +53,6 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "iconActivated",
         "QSystemTrayIcon::ActivationReason",
         "reason",
-        "onRecordHotkey",
-        "onPlaybackHotkey",
         "on_insertEventButton_clicked",
         "deleteEvent",
         "QModelIndex",
@@ -84,15 +82,11 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void(QSystemTrayIcon::ActivationReason)>(12, 2, QMC::AccessPrivate, QMetaType::Void, {{
             { 0x80000000 | 13, 14 },
         }}),
-        // Slot 'onRecordHotkey'
-        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onPlaybackHotkey'
-        QtMocHelpers::SlotData<void()>(16, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_insertEventButton_clicked'
-        QtMocHelpers::SlotData<void()>(17, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'deleteEvent'
-        QtMocHelpers::SlotData<void(const QModelIndex &)>(18, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { 0x80000000 | 19, 20 },
+        QtMocHelpers::SlotData<void(const QModelIndex &)>(16, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { 0x80000000 | 17, 18 },
         }}),
     };
     QtMocHelpers::UintData qt_properties {
@@ -125,10 +119,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 5: _t->on_saveButton_clicked(); break;
         case 6: _t->on_loadButton_clicked(); break;
         case 7: _t->iconActivated((*reinterpret_cast< std::add_pointer_t<QSystemTrayIcon::ActivationReason>>(_a[1]))); break;
-        case 8: _t->onRecordHotkey(); break;
-        case 9: _t->onPlaybackHotkey(); break;
-        case 10: _t->on_insertEventButton_clicked(); break;
-        case 11: _t->deleteEvent((*reinterpret_cast< std::add_pointer_t<QModelIndex>>(_a[1]))); break;
+        case 8: _t->on_insertEventButton_clicked(); break;
+        case 9: _t->deleteEvent((*reinterpret_cast< std::add_pointer_t<QModelIndex>>(_a[1]))); break;
         default: ;
         }
     }
@@ -144,6 +136,8 @@ void *MainWindow::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10MainWindowE_t>.strings))
         return static_cast<void*>(this);
+    if (!strcmp(_clname, "QAbstractNativeEventFilter"))
+        return static_cast< QAbstractNativeEventFilter*>(this);
     return QMainWindow::qt_metacast(_clname);
 }
 
@@ -153,14 +147,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 12)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 12;
+        _id -= 10;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 12)
+        if (_id < 10)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 12;
+        _id -= 10;
     }
     return _id;
 }

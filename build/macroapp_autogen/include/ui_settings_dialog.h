@@ -37,6 +37,7 @@ public:
     QCheckBox *trayCheckBox;
     QCheckBox *disableMouseMovementCheckBox;
     QCheckBox *disableMouseClicksCheckBox;
+    QCheckBox *ignoreHotkeysCheckBox;
     QDialogButtonBox *buttonBox;
 
     void setupUi(QDialog *SettingsDialog)
@@ -90,6 +91,11 @@ public:
 
         verticalLayout_2->addWidget(disableMouseClicksCheckBox);
 
+        ignoreHotkeysCheckBox = new QCheckBox(behaviorGroup);
+        ignoreHotkeysCheckBox->setObjectName("ignoreHotkeysCheckBox");
+
+        verticalLayout_2->addWidget(ignoreHotkeysCheckBox);
+
 
         verticalLayout->addWidget(behaviorGroup);
 
@@ -122,6 +128,7 @@ public:
         trayCheckBox->setText(QCoreApplication::translate("SettingsDialog", "Start minimized to system tray", nullptr));
         disableMouseMovementCheckBox->setText(QCoreApplication::translate("SettingsDialog", "Disable Mouse Movement Recording", nullptr));
         disableMouseClicksCheckBox->setText(QCoreApplication::translate("SettingsDialog", "Disable Mouse Click Recording", nullptr));
+        ignoreHotkeysCheckBox->setText(QCoreApplication::translate("SettingsDialog", "Ignore Hotkeys on Record", nullptr));
     } // retranslateUi
 
 };
