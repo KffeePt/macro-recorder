@@ -1,6 +1,6 @@
 CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj: \
- C:\Users\santi\Documents\Source\c++\macro-app\src\ui\settings_dialog.cpp \
- C:\Users\santi\Documents\Source\c++\macro-app\src\ui\settings_dialog.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src\ui\settings_dialog.cpp \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src\ui\settings_dialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -382,7 +382,7 @@ CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qbitmap.h \
- C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/include/ui_settings_dialog.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/include/ui_settings_dialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QAbstractButton \

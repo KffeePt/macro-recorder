@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\santi\Documents\Source\c++\macro-app
+CMAKE_SOURCE_DIR = C:\Users\santi\Documents\GitHub\macro-recorder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\santi\Documents\Source\c++\macro-app\build
+CMAKE_BINARY_DIR = C:\Users\santi\Documents\GitHub\macro-recorder\build
 
 # Utility rule file for macroapp_autogen_timestamp_deps.
 
@@ -77,6 +77,6 @@ CMakeFiles/macroapp_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/macroapp_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/macroapp_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\santi\Documents\Source\c++\macro-app C:\Users\santi\Documents\Source\c++\macro-app C:\Users\santi\Documents\Source\c++\macro-app\build C:\Users\santi\Documents\Source\c++\macro-app\build C:\Users\santi\Documents\Source\c++\macro-app\build\CMakeFiles\macroapp_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\santi\Documents\GitHub\macro-recorder C:\Users\santi\Documents\GitHub\macro-recorder C:\Users\santi\Documents\GitHub\macro-recorder\build C:\Users\santi\Documents\GitHub\macro-recorder\build C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles\macroapp_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/macroapp_autogen_timestamp_deps.dir/depend
 

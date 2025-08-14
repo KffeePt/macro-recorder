@@ -35,6 +35,8 @@ public:
     void stopPlayback();
     void setLoopSettings(int count, int interval);
     bool isPlaybackEmpty() const;
+    bool getIsRecording() const { return isRecording; }
+    bool getIsPlaying() const { return isPlaying; }
     void setMouseMovementRecordingDisabled(bool disabled);
     void setMouseClickRecordingDisabled(bool disabled);
     bool isMouseMovementRecordingDisabled() const;
@@ -42,6 +44,11 @@ public:
     QVector<MacroEvent> getRecordedEvents() const;
     void setRecordedEvents(const QVector<MacroEvent> &events);
     void insertEvent(const MacroEvent &event);
+    void setRecordHotkey(const QKeySequence &hotkey);
+    void removeLastEvent();
+    void cleanupHotkeyEvents();
+    void setIgnoreHotkeys(bool ignore);
+    bool isIgnoreHotkeys() const;
 
 signals:
     void eventCaptured(const MacroEvent &event);
@@ -65,6 +72,13 @@ private:
     int loopInterval_ms = 0;
     bool disableMouseMovement = false;
     bool disableMouseClicks = false;
+    QKeySequence recordHotkey;
+    bool ignoreHotkeys = true;
+
+    // Track combo state to filter hotkeys cleanly
+    bool ctrlDown = false;
+    bool rDown = false;
+    bool tDown = false;
 
 #ifdef Q_OS_WIN
     static HHOOK keyboardHook;

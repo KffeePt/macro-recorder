@@ -1,6 +1,6 @@
 CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj: \
- C:\Users\santi\Documents\Source\c++\macro-app\src\core\macro_engine.cpp \
- C:\Users\santi\Documents\Source\c++\macro-app\src\core\macro_engine.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src\core\macro_engine.cpp \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src\core\macro_engine.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qobjectdefs.h \

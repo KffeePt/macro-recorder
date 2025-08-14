@@ -1,7 +1,7 @@
 CMakeFiles/macroapp.dir/macroapp_autogen/mocs_compilation.cpp.obj: \
- C:\Users\santi\Documents\Source\c++\macro-app\build\macroapp_autogen\mocs_compilation.cpp \
- C:\Users\santi\Documents\Source\c++\macro-app\build\macroapp_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\build\macroapp_autogen\mocs_compilation.cpp \
+ C:\Users\santi\Documents\GitHub\macro-recorder\build\macroapp_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -384,7 +384,7 @@ CMakeFiles/macroapp.dir/macroapp_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QVector \
@@ -644,11 +644,11 @@ CMakeFiles/macroapp.dir/macroapp_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mcx.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
- C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/windows.h \
- C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QString \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QByteArray \
@@ -661,7 +661,7 @@ CMakeFiles/macroapp.dir/macroapp_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtGui/QStandardItemModel \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qstandarditemmodel.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qabstractitemmodel.h \
- C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QSystemTrayIcon \
@@ -680,7 +680,7 @@ CMakeFiles/macroapp.dir/macroapp_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtMultimedia/qaudiodevice.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QBuffer \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qbuffer.h \
- C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QStyledItemDelegate \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
@@ -699,16 +699,16 @@ CMakeFiles/macroapp.dir/macroapp_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/q20algorithm.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/q23type_traits.h \
- C:\Users\santi\Documents\Source\c++\macro-app\build\macroapp_autogen\MYYQ2Y7GGF/moc_audio_decoder.cpp \
- C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h \
- C:\Users\santi\Documents\Source\c++\macro-app\build\macroapp_autogen\PRMOGMWJPH/moc_global_hotkeys.cpp \
- C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h \
- C:\Users\santi\Documents\Source\c++\macro-app\build\macroapp_autogen\PRMOGMWJPH/moc_macro_engine.cpp \
- C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
- C:\Users\santi\Documents\Source\c++\macro-app\build\macroapp_autogen\YPKJ5OE7LN/moc_event_delegate.cpp \
- C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h \
- C:\Users\santi\Documents\Source\c++\macro-app\build\macroapp_autogen\YPKJ5OE7LN/moc_insert_event_dialog.cpp \
- C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.h \
- C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
- C:\Users\santi\Documents\Source\c++\macro-app\build\macroapp_autogen\YPKJ5OE7LN/moc_settings_dialog.cpp \
- C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h
+ C:\Users\santi\Documents\GitHub\macro-recorder\build\macroapp_autogen\MYYQ2Y7GGF/moc_audio_decoder.cpp \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\build\macroapp_autogen\PRMOGMWJPH/moc_global_hotkeys.cpp \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\build\macroapp_autogen\PRMOGMWJPH/moc_macro_engine.cpp \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\build\macroapp_autogen\YPKJ5OE7LN/moc_event_delegate.cpp \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\build\macroapp_autogen\YPKJ5OE7LN/moc_insert_event_dialog.cpp \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\build\macroapp_autogen\YPKJ5OE7LN/moc_settings_dialog.cpp \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h

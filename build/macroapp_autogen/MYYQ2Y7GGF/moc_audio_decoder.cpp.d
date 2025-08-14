@@ -1,5 +1,5 @@
-C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/MYYQ2Y7GGF/moc_audio_decoder.cpp: C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/moc_predefs.h \
+C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/MYYQ2Y7GGF/moc_audio_decoder.cpp: C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/moc_predefs.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QString \

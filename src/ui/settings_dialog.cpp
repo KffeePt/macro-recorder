@@ -29,6 +29,7 @@ void SettingsDialog::loadSettings()
     ui->trayCheckBox->setChecked(settings.value("behavior/tray", false).toBool());
     ui->disableMouseMovementCheckBox->setChecked(settings.value("behavior/disableMouseMovement", false).toBool());
     ui->disableMouseClicksCheckBox->setChecked(settings.value("behavior/disableMouseClicks", false).toBool());
+    ui->ignoreHotkeysCheckBox->setChecked(settings.value("behavior/ignoreHotkeys", true).toBool());
 }
 
 void SettingsDialog::saveSettings()
@@ -39,4 +40,5 @@ void SettingsDialog::saveSettings()
     settings.setValue("behavior/tray", ui->trayCheckBox->isChecked());
     settings.setValue("behavior/disableMouseMovement", ui->disableMouseMovementCheckBox->isChecked());
     settings.setValue("behavior/disableMouseClicks", ui->disableMouseClicksCheckBox->isChecked());
+    settings.setValue("behavior/ignoreHotkeys", ui->ignoreHotkeysCheckBox->isChecked());
 }

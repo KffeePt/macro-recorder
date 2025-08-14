@@ -4,6 +4,7 @@
 #include <QThread>
 #include <QTime>
 #include <QKeySequence>
+#include <QTimer>
 
 #ifdef Q_OS_WIN
 HHOOK MacroEngine::keyboardHook = nullptr;
@@ -169,6 +170,66 @@ void MacroEngine::insertEvent(const MacroEvent &event)
     recordedEvents.append(event);
 }
 
+void MacroEngine::setRecordHotkey(const QKeySequence &hotkey)
+{
+    recordHotkey = hotkey;
+}
+
+void MacroEngine::removeLastEvent()
+{
+    if (!recordedEvents.isEmpty()) {
+        recordedEvents.removeLast();
+    }
+}
+
+void MacroEngine::cleanupHotkeyEvents()
+{
+    QVector<int> indicesToRemove;
+    for (int i = 0; i < recordedEvents.size() - 1; ++i) {
+        const auto& firstEvent = recordedEvents[i];
+        const auto& secondEvent = recordedEvents[i+1];
+
+        bool isCtrlR = (firstEvent.key_code == VK_CONTROL && secondEvent.key_code == 'R');
+        bool isCtrlT = (firstEvent.key_code == VK_CONTROL && secondEvent.key_code == 'T');
+
+        if ((isCtrlR || isCtrlT) && secondEvent.delay_ms < 500) {
+            // Found a hotkey press, mark it and the corresponding release for removal
+            indicesToRemove.append(i);
+            indicesToRemove.append(i+1);
+
+            // Find the corresponding key release events
+            for (int j = i + 2; j < recordedEvents.size(); ++j) {
+                if (recordedEvents[j].key_code == secondEvent.key_code && recordedEvents[j].type == KEY_RELEASE) {
+                    indicesToRemove.append(j);
+                    break;
+                }
+            }
+            for (int j = i + 2; j < recordedEvents.size(); ++j) {
+                if (recordedEvents[j].key_code == firstEvent.key_code && recordedEvents[j].type == KEY_RELEASE) {
+                    indicesToRemove.append(j);
+                    break;
+                }
+            }
+        }
+    }
+
+    // Remove the marked indices in reverse order to avoid shifting
+    std::sort(indicesToRemove.rbegin(), indicesToRemove.rend());
+    for (int index : indicesToRemove) {
+        recordedEvents.removeAt(index);
+    }
+}
+
+void MacroEngine::setIgnoreHotkeys(bool ignore)
+{
+    ignoreHotkeys = ignore;
+}
+
+bool MacroEngine::isIgnoreHotkeys() const
+{
+    return ignoreHotkeys;
+}
+
 bool MacroEngine::installHook()
 {
 #ifdef Q_OS_WIN
@@ -199,10 +260,38 @@ LRESULT CALLBACK MacroEngine::lowLevelKeyboardProc(int nCode, WPARAM wParam, LPA
 {
     if (nCode == HC_ACTION && instance) {
         KBDLLHOOKSTRUCT *p = (KBDLLHOOKSTRUCT *)lParam;
+        bool isKeyDown = (wParam == WM_KEYDOWN || wParam == WM_SYSKEYDOWN);
+
+        if (instance->isIgnoreHotkeys()) {
+            // Update key states
+            if (p->vkCode == VK_LCONTROL || p->vkCode == VK_RCONTROL) {
+                instance->ctrlDown = isKeyDown;
+            } else if (p->vkCode == 'R') {
+                instance->rDown = isKeyDown;
+            } else if (p->vkCode == 'T') {
+                instance->tDown = isKeyDown;
+            }
+
+            // If Ctrl is pressed with R or T, or if R or T is pressed with Ctrl, filter the event.
+            if ((instance->ctrlDown && (p->vkCode == 'R' || p->vkCode == 'T')) ||
+                (isKeyDown && (instance->rDown || instance->tDown) && (p->vkCode == VK_LCONTROL || p->vkCode == VK_RCONTROL))) {
+                return CallNextHookEx(keyboardHook, nCode, wParam, lParam);
+            }
+
+            // Also filter the key release of the hotkey components.
+            if (!isKeyDown) {
+                if ((p->vkCode == 'R' && GetAsyncKeyState(VK_CONTROL) & 0x8000) ||
+                    (p->vkCode == 'T' && GetAsyncKeyState(VK_CONTROL) & 0x8000) ||
+                    ((p->vkCode == VK_LCONTROL || p->vkCode == VK_RCONTROL) && (GetAsyncKeyState('R') & 0x8000 || GetAsyncKeyState('T') & 0x8000))) {
+                    return CallNextHookEx(keyboardHook, nCode, wParam, lParam);
+                }
+            }
+        }
+
         if (instance->isRecording) {
             if (wParam == WM_KEYDOWN || wParam == WM_SYSKEYDOWN || wParam == WM_KEYUP || wParam == WM_SYSKEYUP) {
                 MacroEvent event;
-                event.type = (wParam == WM_KEYDOWN || wParam == WM_SYSKEYDOWN) ? KEY_PRESS : KEY_RELEASE;
+                event.type = isKeyDown ? KEY_PRESS : KEY_RELEASE;
                 event.key_code = p->vkCode;
                 static QTime lastEventTime = QTime::currentTime();
                 event.delay_ms = lastEventTime.msecsTo(QTime::currentTime());

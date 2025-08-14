@@ -1,6 +1,6 @@
 CMakeFiles/macroapp.dir/mainwindow.cpp.obj: \
- C:\Users\santi\Documents\Source\c++\macro-app\mainwindow.cpp \
- C:\Users\santi\Documents\Source\c++\macro-app\mainwindow.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\mainwindow.cpp \
+ C:\Users\santi\Documents\GitHub\macro-recorder\mainwindow.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -383,7 +383,7 @@ CMakeFiles/macroapp.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtabwidget.h \
- C:\Users\santi\Documents\Source\c++\macro-app\src/core/macro_engine.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src/core/macro_engine.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QVector \
@@ -643,11 +643,11 @@ CMakeFiles/macroapp.dir/mainwindow.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mcx.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
- C:\Users\santi\Documents\Source\c++\macro-app\src/core/global_hotkeys.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src/core/global_hotkeys.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/windows.h \
- C:\Users\santi\Documents\Source\c++\macro-app\src/audio/audio_decoder.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src/audio/audio_decoder.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QString \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QByteArray \
@@ -660,7 +660,7 @@ CMakeFiles/macroapp.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtGui/QStandardItemModel \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qstandarditemmodel.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qabstractitemmodel.h \
- C:\Users\santi\Documents\Source\c++\macro-app\src/ui/settings_dialog.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src/ui/settings_dialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QSystemTrayIcon \
@@ -679,7 +679,7 @@ CMakeFiles/macroapp.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtMultimedia/qaudiodevice.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QBuffer \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qbuffer.h \
- C:\Users\santi\Documents\Source\c++\macro-app\src/ui/event_delegate.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src/ui/event_delegate.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QStyledItemDelegate \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
@@ -694,7 +694,7 @@ CMakeFiles/macroapp.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtabbar.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qrubberband.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qframe.h \
- C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/include/ui_mainwindow.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/include/ui_mainwindow.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QApplication \
@@ -830,5 +830,5 @@ CMakeFiles/macroapp.dir/mainwindow.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtGui/QTransform \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qtransform.h \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qscreen_platform.h \
- C:\Users\santi\Documents\Source\c++\macro-app\src/ui/insert_event_dialog.h \
- C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h
+ C:\Users\santi\Documents\GitHub\macro-recorder\src/ui/insert_event_dialog.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h

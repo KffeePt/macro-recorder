@@ -1,17 +1,17 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app",
+	"BUILD_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/santi/Documents/Source/c++/macro-app/CMakeLists.txt",
-		"C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/3.30.5/CMakeSystem.cmake",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/CMakeLists.txt",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/build/CMakeFiles/3.30.5/CMakeSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake",
@@ -24,7 +24,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/build/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -347,60 +347,60 @@
 		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake",
-		"C:/Users/santi/Documents/Source/c++/macro-app/sounds.qrc"
+		"C:/Users/santi/Documents/GitHub/macro-recorder/sounds.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app",
+	"CMAKE_SOURCE_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/deps",
+	"DEP_FILE" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "macroapp_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.h",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h",
 			"MU",
 			"MYYQ2Y7GGF/moc_audio_decoder.cpp",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h",
 			"MU",
 			"PRMOGMWJPH/moc_global_hotkeys.cpp",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h",
 			"MU",
 			"PRMOGMWJPH/moc_macro_engine.cpp",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h",
 			"MU",
 			"YPKJ5OE7LN/moc_event_delegate.cpp",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.h",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.h",
 			"MU",
 			"YPKJ5OE7LN/moc_insert_event_dialog.cpp",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h",
 			"MU",
 			"YPKJ5OE7LN/moc_settings_dialog.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -427,8 +427,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/santi/Documents/Source/c++/macro-app/src/audio",
-		"C:/Users/santi/Documents/Source/c++/macro-app/src/core",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/src/audio",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/src/core",
 		"C:/Qt/6.9.1/mingw_64/include/QtWidgets",
 		"C:/Qt/6.9.1/mingw_64/include",
 		"C:/Qt/6.9.1/mingw_64/include/QtCore",
@@ -463,52 +463,52 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/macroapp_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/CMakeFiles/macroapp_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.9.1/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.9.1/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/macroapp_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/CMakeFiles/macroapp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/santi/Documents/Source/c++/macro-app/main.cpp", "MU", null ],
+		[ "C:/Users/santi/Documents/GitHub/macro-recorder/main.cpp", "MU", null ],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.cpp",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.cpp",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.cpp",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.cpp",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.cpp",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.cpp",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.cpp",
+			"C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.cpp",
 			"MU",
 			null
 		]

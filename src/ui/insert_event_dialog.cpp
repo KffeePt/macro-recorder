@@ -18,7 +18,7 @@ MacroEvent InsertEventDialog::getEventData()
 {
     MacroEvent event;
     event.type = (ui->eventTypeComboBox->currentText() == "Key Press") ? KEY_PRESS : KEY_RELEASE;
-    event.key_code = QKeySequence(ui->keyEdit->text())[0];
+    event.key_code = QKeySequence(ui->keyEdit->text())[0].toCombined();
     event.delay_ms = ui->delaySpinBox->value();
     return event;
 }

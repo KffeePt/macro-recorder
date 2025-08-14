@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\santi\Documents\Source\c++\macro-app
+CMAKE_SOURCE_DIR = C:\Users\santi\Documents\GitHub\macro-recorder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\santi\Documents\Source\c++\macro-app\build
+CMAKE_BINARY_DIR = C:\Users\santi\Documents\GitHub\macro-recorder\build
 
 # Utility rule file for macroapp_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/macroapp_autogen: macroapp_autogen/timestamp
 macroapp_autogen/timestamp: C:/Qt/6.9.1/mingw_64/bin/moc.exe
 macroapp_autogen/timestamp: C:/Qt/6.9.1/mingw_64/bin/uic.exe
 macroapp_autogen/timestamp: CMakeFiles/macroapp_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\santi\Documents\Source\c++\macro-app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target macroapp"
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/macroapp_autogen.dir/AutogenInfo.json ""
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target macroapp"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/santi/Documents/GitHub/macro-recorder/build/CMakeFiles/macroapp_autogen.dir/AutogenInfo.json ""
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/timestamp
 
 macroapp_autogen: CMakeFiles/macroapp_autogen
 macroapp_autogen: macroapp_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/macroapp_autogen.dir/clean:
 .PHONY : CMakeFiles/macroapp_autogen.dir/clean
 
 CMakeFiles/macroapp_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\santi\Documents\Source\c++\macro-app C:\Users\santi\Documents\Source\c++\macro-app C:\Users\santi\Documents\Source\c++\macro-app\build C:\Users\santi\Documents\Source\c++\macro-app\build C:\Users\santi\Documents\Source\c++\macro-app\build\CMakeFiles\macroapp_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\santi\Documents\GitHub\macro-recorder C:\Users\santi\Documents\GitHub\macro-recorder C:\Users\santi\Documents\GitHub\macro-recorder\build C:\Users\santi\Documents\GitHub\macro-recorder\build C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles\macroapp_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/macroapp_autogen.dir/depend
 

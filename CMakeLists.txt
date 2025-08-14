@@ -26,8 +26,6 @@ add_executable(macroapp WIN32
   mainwindow.ui
   src/core/macro_engine.cpp
   src/core/macro_engine.h
-  src/core/global_hotkeys.cpp
-  src/core/global_hotkeys.h
   src/ui/settings_dialog.cpp
   src/ui/settings_dialog.h
   src/ui/settings_dialog.ui

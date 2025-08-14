@@ -929,30 +929,30 @@ macroapp_autogen/timestamp: C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeE
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wow64apiset.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/CMakeLists.txt \
+  C:/Users/santi/Documents/GitHub/macro-recorder/CMakeLists.txt \
   CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
   CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
   CMakeFiles/3.30.5/CMakeSystem.cmake \
   macroapp_autogen/moc_predefs.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/main.cpp \
-  C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.cpp \
-  C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.ui \
-  C:/Users/santi/Documents/Source/c++/macro-app/sounds.qrc \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.cpp \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.cpp \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.cpp \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.cpp \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.cpp \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.ui \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.cpp \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.ui
+  C:/Users/santi/Documents/GitHub/macro-recorder/main.cpp \
+  C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.cpp \
+  C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.ui \
+  C:/Users/santi/Documents/GitHub/macro-recorder/sounds.qrc \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.cpp \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.cpp \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.cpp \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.cpp \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.cpp \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.ui \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.cpp \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.ui
 
 CMakeFiles/macroapp.dir/macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp.obj: macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp
 
@@ -1638,13 +1638,13 @@ CMakeFiles/macroapp.dir/macroapp_autogen/mocs_compilation.cpp.obj: macroapp_auto
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wow64apiset.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h \
   macroapp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   macroapp_autogen/MYYQ2Y7GGF/moc_audio_decoder.cpp \
   macroapp_autogen/PRMOGMWJPH/moc_global_hotkeys.cpp \
@@ -1653,7 +1653,7 @@ CMakeFiles/macroapp.dir/macroapp_autogen/mocs_compilation.cpp.obj: macroapp_auto
   macroapp_autogen/YPKJ5OE7LN/moc_insert_event_dialog.cpp \
   macroapp_autogen/YPKJ5OE7LN/moc_settings_dialog.cpp
 
-CMakeFiles/macroapp.dir/main.cpp.obj: C:/Users/santi/Documents/Source/c++/macro-app/main.cpp \
+CMakeFiles/macroapp.dir/main.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/main.cpp \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QBuffer \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QByteArray \
@@ -2343,14 +2343,14 @@ CMakeFiles/macroapp.dir/main.cpp.obj: C:/Users/santi/Documents/Source/c++/macro-
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wow64apiset.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h
 
-CMakeFiles/macroapp.dir/mainwindow.cpp.obj: C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.cpp \
+CMakeFiles/macroapp.dir/mainwindow.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.cpp \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QBuffer \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QByteArray \
@@ -3147,16 +3147,16 @@ CMakeFiles/macroapp.dir/mainwindow.cpp.obj: C:/Users/santi/Documents/Source/c++/
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
   macroapp_autogen/include/ui_mainwindow.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h
 
-CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj: C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.cpp \
+CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.cpp \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
@@ -3745,10 +3745,10 @@ CMakeFiles/macroapp.dir/src/audio/audio_decoder.cpp.obj: C:/Users/santi/Document
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wow64apiset.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/audio/miniaudio.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/miniaudio.h
 
-CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj: C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.cpp \
+CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.cpp \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
@@ -4325,9 +4325,9 @@ CMakeFiles/macroapp.dir/src/core/global_hotkeys.cpp.obj: C:/Users/santi/Document
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wow64apiset.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h
 
-CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj: C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.cpp \
+CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.cpp \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QCoreApplication \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
@@ -4937,9 +4937,9 @@ CMakeFiles/macroapp.dir/src/core/macro_engine.cpp.obj: C:/Users/santi/Documents/
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wow64apiset.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h
 
-CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj: C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.cpp \
+CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.cpp \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QList \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QRect \
@@ -5370,9 +5370,9 @@ CMakeFiles/macroapp.dir/src/ui/event_delegate.cpp.obj: C:/Users/santi/Documents/
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h
 
-CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.cpp \
+CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.cpp \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QPoint \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QThread \
@@ -6064,10 +6064,10 @@ CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: C:/Users/santi/Docum
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
   macroapp_autogen/include/ui_insert_event_dialog.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.h
 
-CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj: C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.cpp \
+CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj: C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.cpp \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QSettings \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QVariant \
   C:/Qt/6.9.1/mingw_64/include/QtCore/q17memory.h \
@@ -6503,7 +6503,7 @@ CMakeFiles/macroapp.dir/src/ui/settings_dialog.cpp.obj: C:/Users/santi/Documents
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   macroapp_autogen/include/ui_settings_dialog.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h
 
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter:
@@ -6517,6 +6517,8 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxcomplexint
 C:/Qt/6.9.1/mingw_64/include/QtCore/qcomparehelpers.h:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/QBuffer:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
@@ -6543,6 +6545,8 @@ C:/Qt/6.9.1/mingw_64/include/QtCore/QPoint:
 C:/Qt/6.9.1/mingw_64/include/QtGui/QMouseEvent:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/q23utility.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/QString:
 
@@ -6645,8 +6649,6 @@ C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-rel
 C:/Qt/6.9.1/mingw_64/include/QtCore/qbuffer.h:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qdebug.h:
-
-C:/Users/santi/Documents/Source/c++/macro-app/sounds.qrc:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfigVersionImpl.cmake:
 
@@ -6792,8 +6794,6 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/strin
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qfunctionpointer.h:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.h:
-
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qhash.h:
@@ -6857,8 +6857,6 @@ C:/Qt/6.9.1/mingw_64/include/QtCore/qminmax.h:
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qnamespace.h:
-
-C:/Users/santi/Documents/Source/c++/macro-app/CMakeLists.txt:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
 
@@ -6932,9 +6930,9 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mwaitxintrin.
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qregularexpression.h:
 
-C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
+C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.cpp:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h:
+C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
@@ -7008,8 +7006,6 @@ C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginTargets.cmake
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qstringconverter_base.h:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h:
-
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateConfigVersionImpl.cmake:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake:
@@ -7019,8 +7015,6 @@ C:/Qt/6.9.1/mingw_64/include/QtGui/qpixmap.h:
 C:/Qt/6.9.1/mingw_64/include/QtCore/QSizeF:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qstringlist.h:
-
-C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.cpp:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
 
@@ -7086,11 +7080,9 @@ C:/Qt/6.9.1/mingw_64/include/QtCore/qtdeprecationdefinitions.h:
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
-C:/Qt/6.9.1/mingw_64/include/QtCore/qtdeprecationmarkers.h:
-
-C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h:
-
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h:
+
+C:/Qt/6.9.1/mingw_64/include/QtCore/qtdeprecationmarkers.h:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qtenvironmentvariables.h:
 
@@ -7157,6 +7149,8 @@ C:/Qt/6.9.1/mingw_64/include/QtCore/qversiontagging.h:
 C:/Qt/6.9.1/mingw_64/include/QtCore/qxptype_traits.h:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qyieldcpu.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.cpp:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
@@ -7265,8 +7259,6 @@ C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pthread_unistd.h:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateVersionlessAliasTargets.cmake:
-
-C:/Users/santi/Documents/Source/c++/macro-app/src/audio/miniaudio.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pconfigintrin.h:
 
@@ -7474,8 +7466,6 @@ C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.cpp:
-
 C:/Qt/6.9.1/mingw_64/include/QtWidgets/qcheckbox.h:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
@@ -7614,10 +7604,6 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winspool.h:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.cpp:
-
-C:/Users/santi/Documents/Source/c++/macro-app/main.cpp:
-
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
@@ -7629,6 +7615,8 @@ C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateAddition
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginTargets.cmake:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.ui:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
 
@@ -7772,6 +7760,8 @@ C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6MultimediaPrivate/Qt6MultimediaPrivateConfig.cmake:
 
+C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.h:
+
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake:
@@ -7806,6 +7796,8 @@ C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditional
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake:
 
+C:/Users/santi/Documents/GitHub/macro-recorder/CMakeLists.txt:
+
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake:
 
 C:/Qt/6.9.1/mingw_64/include/QtGui/QTransform:
@@ -7827,8 +7819,6 @@ C:/Qt/6.9.1/mingw_64/include/QtCore/QJsonArray:
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
-
-C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.cpp:
 
 C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
 
@@ -7942,8 +7932,6 @@ C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
 
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.ui:
-
 C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/ammintrin.h:
@@ -7969,6 +7957,8 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vp2inte
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mmsyscom.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqvlintrin.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxneconvertintrin.h:
 
@@ -8084,9 +8074,11 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/spec
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h:
 
-C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h:
-
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/main.cpp:
+
+C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h:
 
@@ -8130,8 +8122,6 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.cpp:
-
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stream_iterator.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc:
@@ -8141,8 +8131,6 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/pshpack2.h:
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/fibersapi.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h:
-
-C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.cpp:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc:
 
@@ -8190,8 +8178,6 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h:
-
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime:
@@ -8217,6 +8203,8 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w6
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/jobapi.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/rpc.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.cpp:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h:
 
@@ -8295,6 +8283,10 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wbnoinvdintri
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h:
 
 C:/Qt/6.9.1/mingw_64/include/QtWidgets/qfiledialog.h:
 
@@ -8376,8 +8368,6 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/assert.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/bcrypt.h:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.ui:
-
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/cderr.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/corecrt.h:
@@ -8417,6 +8407,8 @@ macroapp_autogen/YPKJ5OE7LN/moc_settings_dialog.cpp:
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/ioapiset.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/libloaderapi.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.ui:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/lzexpand.h:
 
@@ -8504,6 +8496,8 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/rpcnterr.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sal.h:
 
+C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.cpp:
+
 C:/Qt/6.9.1/mingw_64/include/QtGui/qevent.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sdkddkver.h:
@@ -8520,6 +8514,8 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/securityappcontainer.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/servprov.h:
 
+C:/Users/santi/Documents/GitHub/macro-recorder/sounds.qrc:
+
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/signal.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/string.h:
@@ -8529,6 +8525,8 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/swprintf.inl:
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/timeb.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sysinfoapi.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.ui:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h:
 
@@ -8547,8 +8545,6 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winnls.h:
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winnt.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winreg.h:
-
-C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.h:
 
 C:/Qt/6.9.1/mingw_64/include/QtCore/qjsonvalue.h:
 
@@ -8570,11 +8566,13 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h:
 
 CMakeFiles/3.30.5/CMakeRCCompiler.cmake:
 
-C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.ui:
+C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.cpp:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.cpp:
+C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h:
 
-C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h:
+C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.cpp:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.cpp:
 
 macroapp_autogen/EWIEGA46WW/qrc_sounds.cpp:
 
@@ -8723,6 +8721,8 @@ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/io.h:
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/strings.h:
 
 C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/stat.h:
+
+C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/miniaudio.h:
 
 C:/Qt/6.9.1/mingw_64/include/QtGui/qpainter.h:
 

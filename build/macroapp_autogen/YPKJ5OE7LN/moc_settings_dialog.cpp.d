@@ -1,5 +1,5 @@
-C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/YPKJ5OE7LN/moc_settings_dialog.cpp: C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/moc_predefs.h \
+C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/YPKJ5OE7LN/moc_settings_dialog.cpp: C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/moc_predefs.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/q20iterator.h \

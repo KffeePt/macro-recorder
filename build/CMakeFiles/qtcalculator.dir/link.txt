@@ -1,3 +1,0 @@
-C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\qtcalculator.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\qtcalculator.dir/objects.a @CMakeFiles\qtcalculator.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\c++.exe -Wl,--whole-archive CMakeFiles\qtcalculator.dir/objects.a -Wl,--no-whole-archive -o qtcalculator.exe -Wl,--out-implib,libqtcalculator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\qtcalculator.dir\linkLibs.rsp

@@ -1,5 +1,5 @@
-C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/santi/Documents/Source/c++/macro-app/mainwindow.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/moc_predefs.h \
+C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/santi/Documents/GitHub/macro-recorder/mainwindow.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/moc_predefs.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QBuffer \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QByteArray \
@@ -667,8 +667,8 @@ C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/EWIEGA46WW/
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wow64apiset.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/audio/audio_decoder.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/event_delegate.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/ui/settings_dialog.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/audio/audio_decoder.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/event_delegate.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/settings_dialog.h

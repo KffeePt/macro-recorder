@@ -21,8 +21,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    hotkeys = new GlobalHotkeys(this);
-    qApp->installNativeEventFilter(hotkeys);
+    qApp->installNativeEventFilter(this);
 
     audioDecoder = new AudioDecoder(this);
 
@@ -65,49 +64,55 @@ MainWindow::MainWindow(QWidget *parent)
             updateStatus("Idle");
         }
     });
-    connect(hotkeys, &GlobalHotkeys::recordHotkeyActivated, this, &MainWindow::onRecordHotkey);
-    connect(hotkeys, &GlobalHotkeys::playbackHotkeyActivated, this, &MainWindow::onPlaybackHotkey);
-
 
     engineThread->start();
     loadSettings();
     createTrayIcon();
     createSoundEffects();
+    registerHotkeys();
 }
 
 MainWindow::~MainWindow()
 {
+    unregisterHotkeys();
     delete ui;
 }
 
 void MainWindow::on_recordButton_clicked()
 {
-    isRecording = !isRecording;
-    if (isRecording) {
-        if (isPlaying) {
+    if (macroEngine->getIsRecording()) {
+        macroEngine->stopRecording();
+        macroEngine->cleanupHotkeyEvents();
+        refreshEventViews();
+        playSound(&recordStopSoundData, audioFormat);
+        ui->recordButton->setText("Record");
+    } else {
+        if (macroEngine->getIsPlaying()) {
             macroEngine->stopPlayback();
-            isPlaying = false;
             ui->playbackButton->setText("Playback");
         }
         keyboardEventsModel->removeRows(0, keyboardEventsModel->rowCount());
         mouseEventsModel->removeRows(0, mouseEventsModel->rowCount());
+        macroEngine->setRecordHotkey(QKeySequence("Ctrl+R"));
         macroEngine->startRecording();
         playSound(&recordStartSoundData, audioFormat);
         ui->recordButton->setText("Stop Recording");
-    } else {
-        macroEngine->stopRecording();
-        playSound(&recordStopSoundData, audioFormat);
-        ui->recordButton->setText("Record");
     }
 }
 
 void MainWindow::on_playbackButton_clicked()
 {
-    isPlaying = !isPlaying;
-    if (isPlaying) {
-        if (isRecording) {
+    if (macroEngine->getIsPlaying()) {
+        macroEngine->stopPlayback();
+        playSound(&playbackStopSoundData, audioFormat);
+        ui->playbackButton->setText("Playback");
+    } else {
+        if (macroEngine->isPlaybackEmpty()) {
+            updateStatus("Nothing to play back.");
+            return;
+        }
+        if (macroEngine->getIsRecording()) {
             macroEngine->stopRecording();
-            isRecording = false;
             ui->recordButton->setText("Record");
         }
         int loopCount = ui->loopCountSpinBox->value();
@@ -127,10 +132,6 @@ void MainWindow::on_playbackButton_clicked()
         macroEngine->startPlayback();
         playSound(&playbackStartSoundData, audioFormat);
         ui->playbackButton->setText("Stop Playback");
-    } else {
-        macroEngine->stopPlayback();
-        playSound(&playbackStopSoundData, audioFormat);
-        ui->playbackButton->setText("Playback");
     }
 }
 
@@ -196,6 +197,7 @@ void MainWindow::loadSettings()
     QSettings settings("MySoft", "MacroApp");
     macroEngine->setMouseMovementRecordingDisabled(settings.value("behavior/disableMouseMovement", false).toBool());
     macroEngine->setMouseClickRecordingDisabled(settings.value("behavior/disableMouseClicks", false).toBool());
+    macroEngine->setIgnoreHotkeys(settings.value("behavior/ignoreHotkeys", true).toBool());
 }
 
 void MainWindow::on_saveButton_clicked()
@@ -279,15 +281,6 @@ void MainWindow::on_loadButton_clicked()
     }
 }
 
-void MainWindow::onRecordHotkey()
-{
-    on_recordButton_clicked();
-}
-
-void MainWindow::onPlaybackHotkey()
-{
-    on_playbackButton_clicked();
-}
 
 void MainWindow::deleteEvent(const QModelIndex &index)
 {
@@ -386,4 +379,60 @@ void MainWindow::iconActivated(QSystemTrayIcon::ActivationReason reason)
             this->showNormal();
         }
     }
+}
+
+void MainWindow::keyPressEvent(QKeyEvent *event)
+{
+    if (event->key() == Qt::Key_Delete) {
+        QModelIndexList selectedKeyboard = ui->keyboardEventsView->selectionModel()->selectedIndexes();
+        if (!selectedKeyboard.isEmpty()) {
+            deleteEvent(selectedKeyboard.first());
+            return;
+        }
+
+        QModelIndexList selectedMouse = ui->mouseEventsView->selectionModel()->selectedIndexes();
+        if (!selectedMouse.isEmpty()) {
+            deleteEvent(selectedMouse.first());
+            return;
+        }
+    }
+
+    QMainWindow::keyPressEvent(event);
+}
+
+void MainWindow::refreshEventViews()
+{
+    keyboardEventsModel->removeRows(0, keyboardEventsModel->rowCount());
+    mouseEventsModel->removeRows(0, mouseEventsModel->rowCount());
+    for (const auto& event : macroEngine->getRecordedEvents()) {
+        handleEventCaptured(event);
+    }
+}
+
+void MainWindow::registerHotkeys()
+{
+    RegisterHotKey(NULL, 1, MOD_CONTROL, 'R');
+    RegisterHotKey(NULL, 2, MOD_CONTROL, 'T');
+}
+
+void MainWindow::unregisterHotkeys()
+{
+    UnregisterHotKey(NULL, 1);
+    UnregisterHotKey(NULL, 2);
+}
+
+bool MainWindow::nativeEventFilter(const QByteArray &eventType, void *message, qintptr *result)
+{
+    MSG* msg = static_cast<MSG*>(message);
+    if (msg->message == WM_HOTKEY) {
+        if (msg->wParam == 1) {
+            on_recordButton_clicked();
+            return true;
+        }
+        if (msg->wParam == 2) {
+            on_playbackButton_clicked();
+            return true;
+        }
+    }
+    return false;
 }

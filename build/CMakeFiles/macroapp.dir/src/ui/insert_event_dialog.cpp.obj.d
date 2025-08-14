@@ -1,6 +1,6 @@
 CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: \
- C:\Users\santi\Documents\Source\c++\macro-app\src\ui\insert_event_dialog.cpp \
- C:\Users\santi\Documents\Source\c++\macro-app\src\ui\insert_event_dialog.h \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src\ui\insert_event_dialog.cpp \
+ C:\Users\santi\Documents\GitHub\macro-recorder\src\ui\insert_event_dialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -382,7 +382,7 @@ CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.9.1/mingw_64/include/QtGui/qbitmap.h \
- C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QVector \
@@ -642,7 +642,7 @@ CMakeFiles/macroapp.dir/src/ui/insert_event_dialog.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/mcx.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/imm.h \
- C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/include/ui_insert_event_dialog.h \
+ C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/include/ui_insert_event_dialog.h \
  C:/Qt/6.9.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.9.1/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.9.1/mingw_64/include/QtWidgets/QAbstractButton \

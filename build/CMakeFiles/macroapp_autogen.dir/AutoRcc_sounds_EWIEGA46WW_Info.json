@@ -1,29 +1,29 @@
 {
-	"BUILD_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app",
-	"CMAKE_SOURCE_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app",
+	"BUILD_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder",
+	"CMAKE_SOURCE_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder",
 	"CROSS_CONFIG" : false,
 	"GENERATOR" : "MinGW Makefiles",
-	"INCLUDE_DIR" : "C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/include",
+	"INCLUDE_DIR" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Users/santi/Documents/Source/c++/macro-app/sounds/record_stop.mp3",
-		"C:/Users/santi/Documents/Source/c++/macro-app/sounds/record_start.mp3",
-		"C:/Users/santi/Documents/Source/c++/macro-app/sounds/playback_start.mp3",
-		"C:/Users/santi/Documents/Source/c++/macro-app/sounds/playback_stop.mp3",
-		"C:/Users/santi/Documents/Source/c++/macro-app/sounds/save_successful.mp3"
+		"C:/Users/santi/Documents/GitHub/macro-recorder/sounds/record_stop.mp3",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/sounds/record_start.mp3",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/sounds/playback_start.mp3",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/sounds/playback_stop.mp3",
+		"C:/Users/santi/Documents/GitHub/macro-recorder/sounds/save_successful.mp3"
 	],
-	"LOCK_FILE" : "C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/macroapp_autogen.dir/AutoRcc_sounds_EWIEGA46WW_Lock.lock",
+	"LOCK_FILE" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/CMakeFiles/macroapp_autogen.dir/AutoRcc_sounds_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "--no-zstd", "-name", "sounds" ],
 	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
 	"OUTPUT_NAME" : "qrc_sounds.cpp",
 	"RCC_EXECUTABLE" : "C:/Qt/6.9.1/mingw_64/bin/rcc.exe",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "C:/Users/santi/Documents/Source/c++/macro-app/build/CMakeFiles/macroapp_autogen.dir/AutoRcc_sounds_EWIEGA46WW_Used.txt",
-	"SOURCE" : "C:/Users/santi/Documents/Source/c++/macro-app/sounds.qrc",
+	"SETTINGS_FILE" : "C:/Users/santi/Documents/GitHub/macro-recorder/build/CMakeFiles/macroapp_autogen.dir/AutoRcc_sounds_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/santi/Documents/GitHub/macro-recorder/sounds.qrc",
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0
 }

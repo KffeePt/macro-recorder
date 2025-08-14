@@ -1,3 +1,5 @@
-C:/Users/santi/Documents/Source/c++/macro-app/build-release/CMakeFiles/macroapp.dir
-C:/Users/santi/Documents/Source/c++/macro-app/build-release/CMakeFiles/ALL_BUILD.dir
-C:/Users/santi/Documents/Source/c++/macro-app/build-release/CMakeFiles/ZERO_CHECK.dir
+C:/Users/santi/Documents/GitHub/macro-recorder/build-release/CMakeFiles/macroapp.dir
+C:/Users/santi/Documents/GitHub/macro-recorder/build-release/CMakeFiles/edit_cache.dir
+C:/Users/santi/Documents/GitHub/macro-recorder/build-release/CMakeFiles/rebuild_cache.dir
+C:/Users/santi/Documents/GitHub/macro-recorder/build-release/CMakeFiles/macroapp_autogen_timestamp_deps.dir
+C:/Users/santi/Documents/GitHub/macro-recorder/build-release/CMakeFiles/macroapp_autogen.dir

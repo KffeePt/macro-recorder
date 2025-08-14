@@ -1,5 +1,5 @@
-C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/PRMOGMWJPH/moc_global_hotkeys.cpp: C:/Users/santi/Documents/Source/c++/macro-app/src/core/global_hotkeys.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/moc_predefs.h \
+C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/PRMOGMWJPH/moc_global_hotkeys.cpp: C:/Users/santi/Documents/GitHub/macro-recorder/src/core/global_hotkeys.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/moc_predefs.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QAbstractNativeEventFilter \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.9.1/mingw_64/include/QtCore/q17memory.h \

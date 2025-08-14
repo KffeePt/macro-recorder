@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/santi/Documents/Source/c++/macro-app
+# Install script for directory: C:/Users/santi/Documents/GitHub/macro-recorder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/QtCalculator")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/macroapp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/santi/Documents/Source/c++/macro-app/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/santi/Documents/GitHub/macro-recorder/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

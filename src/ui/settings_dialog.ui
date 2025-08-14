@@ -83,6 +83,13 @@
         </property>
        </widget>
       </item>
+      <item>
+       <widget class="QCheckBox" name="ignoreHotkeysCheckBox">
+        <property name="text">
+         <string>Ignore Hotkeys on Record</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </item>

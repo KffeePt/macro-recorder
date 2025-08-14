@@ -1,5 +1,5 @@
-C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/YPKJ5OE7LN/moc_insert_event_dialog.cpp: C:/Users/santi/Documents/Source/c++/macro-app/src/ui/insert_event_dialog.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/moc_predefs.h \
+C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/YPKJ5OE7LN/moc_insert_event_dialog.cpp: C:/Users/santi/Documents/GitHub/macro-recorder/src/ui/insert_event_dialog.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/moc_predefs.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QPoint \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QThread \
@@ -622,4 +622,4 @@ C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/YPKJ5OE7LN/
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wow64apiset.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypes.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h
+  C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h

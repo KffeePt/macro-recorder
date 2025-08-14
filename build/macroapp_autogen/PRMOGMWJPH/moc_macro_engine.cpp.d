@@ -1,5 +1,5 @@
-C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/PRMOGMWJPH/moc_macro_engine.cpp: C:/Users/santi/Documents/Source/c++/macro-app/src/core/macro_engine.h \
-  C:/Users/santi/Documents/Source/c++/macro-app/build/macroapp_autogen/moc_predefs.h \
+C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/PRMOGMWJPH/moc_macro_engine.cpp: C:/Users/santi/Documents/GitHub/macro-recorder/src/core/macro_engine.h \
+  C:/Users/santi/Documents/GitHub/macro-recorder/build/macroapp_autogen/moc_predefs.h \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QObject \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QPoint \
   C:/Qt/6.9.1/mingw_64/include/QtCore/QThread \

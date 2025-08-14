@@ -56,10 +56,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\santi\Documents\Source\c++\macro-app
+CMAKE_SOURCE_DIR = C:\Users\santi\Documents\GitHub\macro-recorder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\santi\Documents\Source\c++\macro-app\build
+CMAKE_BINARY_DIR = C:\Users\santi\Documents\GitHub\macro-recorder\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\santi\Documents\Source\c++\macro-app\build\CMakeFiles C:\Users\santi\Documents\Source\c++\macro-app\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles C:\Users\santi\Documents\GitHub\macro-recorder\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\santi\Documents\Source\c++\macro-app\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\santi\Documents\GitHub\macro-recorder\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
